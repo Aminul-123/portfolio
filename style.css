@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    align-items: center;
+    
+}
+
+.header > div > h1 , h5 {
+    margin-top: 10px;
+}
+.navbar {
+    height: 3rem;
+    width: auto;
+    background-color: rgb(240, 238, 238);
+    border-bottom: 1px solid rgb(224, 223, 223);
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+main {
+    margin: 13px;
+   
+}
+.name-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgb(195, 195, 195);
+    border-radius: 7px;
+}
+main > div> div .my-name, p {
+    text-align: center;
+}
+main > div > div {
+    margin: 2rem;
+}
+main > div > div  img {
+    margin-bottom: 1rem;
+}
+.name-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.name-title h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+.name-title p {
+    font-weight: 600;
+}
+.name-title a {
+    text-align: center;
+    margin-top: 1rem;
+    height: 3rem;
+    width: 20rem;
+    font-size: 1.5rem;
+    padding-top: 10px;
+    text-decoration: none;
+    background-color: goldenrod;
+    color: white;
+    font-weight: 800;
+   
+}
+.project-section {
+    border: 1px solid rgb(195, 195, 195);
+    border-radius: 7px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(0, 0, 0);
+
+}
+.project {
+    display: grid;
+    grid-template-columns: repeat(5, 15rem);
+    grid-gap: 14px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+}
+.project-heading {
+    margin-left: 3rem;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+.project .p {
+    height: 12rem;
+    width: 12rem;
+    text-align: center;
+    padding: 1rem;
+    padding-top: 5rem;
+    font-weight: 800;
+    background-color: goldenrod;
+    text-decoration: none;
+    
+    color: white;
+    cursor: pointer;
+    
+}
+.about-section {
+
+    border-radius: 7px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 2rem;
+    text-align: left;
+    background-color: rgb(239, 237, 237);
+}
+.school> * {
+    padding-left: 3rem;
+    margin-top: 1rem;
+}
+.school span {
+    font-weight: bold;
+}
+.about-me p {
+    font-weight: 600;
+    padding: 2rem;
+}
+.about-me {
+    width: 50%;
+    padding: 1rem;
+    background-color: goldenrod;
+    color: white;
+    overflow: hidden;
+    border-radius: 4px;
+}
+.about-flex {
+    display: flex;
+    justify-content: space-between;
+}
+footer {
+    margin: 2rem;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+footer > * {
+    text-decoration: none;
+    color: gray;
+}
+footer > *:hover {
+    text-decoration: underline;
+}
+.tech-section {
+    
+    border-radius: 7px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 2rem;
+    color: white;
+    background-color: rgb(8, 7, 7);
+}
+.tech-logo {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    overflow: none;
+}
+.tech-section h1 {
+    
+    margin-bottom: 1rem;
+}
+.tech-logo img {
+    height: auto;
+    width: 12rem;
+    cursor: pointer;
+
+}
+.contact {
+    height: 2rem;
+    width: 6rem;
+    background-color: goldenrod;
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
