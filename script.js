@@ -2,7 +2,7 @@
 const downloadButton = document.querySelector('.downloadResume');
 
 downloadButton.addEventListener('click', function() {
-    const fileUrl = './images/IMG_20240712_113356.jpg';
+    const fileUrl = './images/resume-4.pdf';
     const fileName ='Aminuls-resume';
 
     const link = document.createElement("a");
