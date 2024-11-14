@@ -11,3 +11,8 @@ downloadButton.addEventListener('click', function() {
 
     link.click();
 })
+const contactBtn = document.querySelector('.contact')
+contactBtn.addEventListener('click', () => {
+    const html = ` <span class=" phone-no">Phone : +91 6000 217 935</span>`
+    contactBtn.insertAdjacentHTML('afterbegin', html)
+})
